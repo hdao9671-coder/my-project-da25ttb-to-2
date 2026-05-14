@@ -1,1 +1,81 @@
-/*Mã nguồn CSS*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: seperate;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 15px;
+    border-spacing: 0;
+   
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    text-align: left;
+}
+
+ul, ol {
+    background: #fff;
+    padding: 20px 40px;
+    border-left: 3px dashed #3498db;
+
+}
+
+li {
+    margin-bottom: 10px;
+
+}
+
+.links a {
+    margin-right: 15px;
+    padding: 5px 10px;
+    background: #7b818e;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
+img{
+	height: 130px;
+	width: 130px;
+	border-radius: 30%;
+	display: block;
+	margin: auto;
+
+}
+
+tr:hover{
+	background: #d9ecff;
+	border-radius: 50px;
+}
+
+.links a:hover{
+	background: #7bd0ed;
+	border-radius: 4px;
+	padding: 5px 10px;
+	
+}
